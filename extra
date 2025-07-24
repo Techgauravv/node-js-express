@@ -1,2 +1,40 @@
 NodeJS
+
 > single thread, Async, Non Block I/O
+
+/_ Step Generate to install dev dependency _/
+\*\* NodeJs must be installed in laptop
+
+> go inside folder using terminal/cmd
+> npm i packagename --save-dev
+
+local dependency
+
+> Default installation
+> they are local to the folder
+> only used for specific folder
+
+global dependency
+
+> installed in the laptop
+> can be used for any app
+> only used before app start
+> use to generate the app / run the app
+> will not add in package.json
+> need admin permission to install
+
+dev dependency
+
+> they are local to the folder
+> only dependencies used at time of development
+
+/////Step to install global package
+#window
+
+> open cmd as admin
+> npm i -g nodemon
+
+#mac /linux
+
+> open terminal
+> sudo npm i -g nodemon
